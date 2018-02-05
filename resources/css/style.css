@@ -4,12 +4,17 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0px;
 }
+
+/* Styling for index.html fixed header section */
 
 header {
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 5;
+  background-color: black;
   display: inline-flex;
   height: 69px;
   width: 100%;
@@ -29,4 +34,84 @@ header li {
 
 a {
   color: seashell;
+}
+
+/* Mission Section */
+
+#mission {
+  position: relative;
+  top: 70px;
+  left: 50px;
+  height:700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+}
+
+.ourmission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+}
+
+h2, h4 {
+  margin: 10px;
+}
+
+#featured {
+  position: relative;
+  top: 140px;
+  left: 150px;
+  height:700px;
+  width: 1000px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.teaofthemonth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+}
+
+.stars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  height: 200px;
+  width: 300px;
+}
+
+.berryblitz {
+  display: flex
+}
+
+.spicedrum {
+  background-image: url("../images/img-spiced-rum.jpg");
+}
+
+.donuts {
+  background-image: url("../images/img-donut.jpg");
+}
+
+.myrtle {
+  background-image: url("../images/img-myrtle-ave.jpg");
+}
+
+.bedford {
+  background-image: url("../images/img-bedford-bizarre.jpg");
 }
