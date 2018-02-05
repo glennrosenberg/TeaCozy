@@ -95,23 +95,3 @@ h2, h4 {
   height: 200px;
   width: 300px;
 }
-
-.berryblitz {
-  display: flex
-}
-
-.spicedrum {
-  background-image: url("../images/img-spiced-rum.jpg");
-}
-
-.donuts {
-  background-image: url("../images/img-donut.jpg");
-}
-
-.myrtle {
-  background-image: url("../images/img-myrtle-ave.jpg");
-}
-
-.bedford {
-  background-image: url("../images/img-bedford-bizarre.jpg");
-}
