@@ -67,8 +67,9 @@ h2, h4 {
   top: 140px;
   left: 150px;
   height:700px;
-  width: 1000px;
+  width: 1050px;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
 }
 
@@ -78,20 +79,20 @@ h2, h4 {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  width: 1200px;
+  width: 1050px;
 }
 
 .stars {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1200px;
+  justify-content: center;
+  width: 1050px;
 }
 
 .star {
   display: flex;
   flex-direction: column;
   padding: 0px;
-  height: 200px;
-  width: 300px;
+  margin: 10px 25px;
+  align-items: center;
 }
